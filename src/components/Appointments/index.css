@@ -1,0 +1,92 @@
+.main-bg {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-details {
+  margin-right: 100px;
+}
+.appointment-details-head {
+  color: #171f46;
+}
+.input-details {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.input-head {
+  color: #b5b7c4;
+  margin-bottom: 5px;
+}
+.input-content {
+  border-color: #b5b7c4;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: thin;
+}
+.image {
+  width: 350px;
+  height: 250px;
+}
+.line {
+  margin-top: 20px;
+}
+.appointment-button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border-radius: 7px;
+  padding: 7px;
+  border-width: 0px;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.button-container-head {
+  font-size: 22px;
+  color: #171f46;
+}
+.remove-button {
+  border-radius: 10px;
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+  background-size: cover;
+  width: 90px;
+  height: 30px;
+  background-color: transparent;
+}
+.active {
+  background-color: #8b5cf6;
+  color: white;
+  border-width: 0px;
+  border-radius: 7px;
+}

@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.appointment-item {
+  list-style: none;
+  padding: 7px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #b5b7c4;
+  margin: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.appointment-item-title {
+  font-weight: bold;
+}
+.appointment-item-date {
+  color: #b5b7c4;
+}
+.star-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-button {
+  border-width: 0px;
+  background-color: transparent;
+}
